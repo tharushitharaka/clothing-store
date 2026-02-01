@@ -1,0 +1,18 @@
+.container {
+  padding: 20px;
+}
+.hero {
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #f7f7f9, #fff);
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+.featured h2 {
+  margin: 0 0 12px 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
