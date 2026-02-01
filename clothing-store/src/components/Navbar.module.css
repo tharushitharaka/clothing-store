@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
+.brand {
+  font-weight: 700;
+  color: #222;
+}
+.links {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+}
+.links a {
+  text-decoration: none;
+  color: #333;
+}
+.cart { position: relative }
+.badge {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+@media (max-width: 600px) {
+  .nav { padding: 10px 12px }
+  .links { gap: 8px }
+  .brand { font-size: 14px }
+}
